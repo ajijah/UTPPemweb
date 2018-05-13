@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Toko Sepatu Pemweb</title>
+    <title>Toko Sepatu Asik</title>
 
 
     <link rel="stylesheet" href="style.css" type="text/css" />
@@ -15,7 +15,7 @@
 						<div class="art-header">
 							<div class="art-headerobject"></div>
 								<div class="art-logo">
-									<h1 class="art-logo-name"><a href="#">Toko Sepatu Pemweb</a></h1>
+									<h1 class="art-logo-name"><a href="#">Toko Sepatu Asik</a></h1>
 									<h2 class="art-logo-text">Tersedia Berbagai Jenis Produk Sepatu dan Sandal</h2>
 								</div>											
 						</div>
