@@ -1,0 +1,27 @@
+<?php
+include "koneksi.php";
+
+$username = $_POST['masukanasukan username'];
+$password = $_POST['masukan password'];
+		
+	if(empty($masukan username)){
+	echo "<script>alert('Username belum diisi')</script>";
+	echo "<meta http-equiv='refresh' content='1 url=daftar.php'>";
+	}else 
+		
+	if (empty($masukan password)){
+		echo "<script>alert('Password belum diisi')</script>";
+		echo "<meta http-equiv='refresh' content='1 url=daftar.php'>";
+	}
+	else{
+	$daftar = mysql_query("INSERT INTO users (masukan username, masukankan password) values ('$masukan username','$ mahasiswa password')");
+
+	if ($daftar){
+		echo "<script>alert('Berhasil Mendaftar')</script>";
+		echo "<meta http-equiv='refresh' content='1 url=daftar.php'>";
+		}else{
+			echo "<script>alert('Gagal Mendaftar')</script>";
+			echo "<meta http-equiv='refresh' content='1 url=daftar.php'>";
+		}
+}
+?>
