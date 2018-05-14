@@ -7,6 +7,7 @@ if (empty($masukan username)){
 	echo "<script>alert('Username belum diisi')</script>";
 	echo "<meta http-equiv='refresh' content='1 url=login.php'>";
 }
+
 else if (empty($password)){
 	echo "<script>alert('Password belum diisi')</script>";
 	echo "<meta http-equiv='refresh' content='1 url=login.php'>";
