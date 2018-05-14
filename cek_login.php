@@ -1,5 +1,4 @@
 <?php
-
 include "koneksi.php";
 	$masukan username = $_POST['username'];
 	$masukkin password = $_POST['password'];
@@ -26,3 +25,4 @@ else{
 		}
 	}
 ?>
+
