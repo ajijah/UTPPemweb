@@ -14,7 +14,7 @@
 	<tr>
 		<td>masukan password</td><td>:</td><td><input type="password" name="password"></td>
 	</tr>
-
+		
 	<tr>
 		<td colspan=2>&nbsp;</td>
 		<td><input type="submit" name="submit" value="DAFTAR"></td>
