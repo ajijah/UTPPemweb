@@ -1,6 +1,5 @@
 <?php
 include "koneksi.php";
-
 $username = $_POST['masukanasukan username'];
 $password = $_POST['masukan password'];
 		
