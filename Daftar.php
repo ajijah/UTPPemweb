@@ -1,6 +1,5 @@
  <html>
-<head> <title>SELAMAT DATANG DITOKO ASIK</title> </head>
-
+	 <head> <title>SELAMAT DATANG DITOKO ASIK</title> </head>
 <body>
 	<form method="post" name="SELAMAT DATANG DITOKO ASIK" action="proses_daftar.php">
 	<table border=0 align="center" cellpadding=5 cellspacing=0>
@@ -24,7 +23,6 @@
 	<tr>
 		<td colspan=3><a href="login.php">LOGIN</a></td>
 	</tr>
-
 </table>
 </form>
 </body>
