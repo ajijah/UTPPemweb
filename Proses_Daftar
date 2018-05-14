@@ -7,7 +7,7 @@ $password = $_POST['masukan password'];
 	echo "<script>alert('Username belum diisi')</script>";
 	echo "<meta http-equiv='refresh' content='1 url=daftar.php'>";
 	}else 
-		
+	
 	if (empty($masukan password)){
 		echo "<script>alert('Password belum diisi')</script>";
 		echo "<meta http-equiv='refresh' content='1 url=daftar.php'>";
